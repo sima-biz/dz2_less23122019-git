@@ -1,5 +1,4 @@
 
-
 // @import "media.less";
 body {
   
@@ -28,7 +27,6 @@ body {
       padding: 30px 0px 0px 0px;
       .about {
         font-family: 'Heebo', sans-serif;
-        // text-transform: uppercase;
         font-size: 30px;
         color: white;
         margin: 5px;
@@ -58,11 +56,11 @@ body {
         height: 419px;
         background: #FFFFFF;
         margin: 25px 0px 0px 0px;
-        .social {
+        .social { 
           position: absolute;
           margin: auto;
-          height: 224px;
-          width: 215px;
+          height: 50px;
+          width: 180px;
           background: #16A086;
           opacity: 0;
           top: -180px;
@@ -72,7 +70,7 @@ body {
           max-width: 100%;
           max-height: 100%;
           cursor: pointer;
-          transition: 0s 5s;
+          transition: 0s 3.5s;
           display: flex;
           align-items: center;
           justify-content: space-around;
@@ -135,39 +133,12 @@ body {
             animation-iteration-count: 1;
           }
         }
-        img::before .social {
-          height: 100vh;
-          width: 100vw;
-          opacity: 0.7;
-          background: red;
-          position: absolute;
-          margin: auto;
-          top: -180px;
-          left: 0;
-          bottom: 0;
-          right: 0;
-          max-width: 100%;
-          max-height: 100%;
+        img{ 
           cursor: pointer;
         }
-        img {
-          cursor: pointer;
-        }
-        .social:hover { 
+        img:hover ~ div{ 
           opacity: 0.8;
           transition: 1s;
-          position: absolute;
-          margin: auto;
-          height: 50px;
-          width: 180px;
-          background: #16A086;
-          top: -180px;
-          left: 0;
-          bottom: 0;
-          right: 0;
-          max-width: 100%;
-          max-height: 100%;
-          cursor: pointer; 
         }
         .pname1 { 
           font-family: 'Heebo', sans-serif;
